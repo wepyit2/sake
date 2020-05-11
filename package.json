@@ -1,0 +1,69 @@
+{
+    "name": "monaca-template-minimum",
+    "version": "2.0.7",
+    "displayName": "Monaca Template Minimum",
+    "dependencies": {
+        "com-sarriaroman-photoviewer": "1.2.4",
+        "cordova-plugin-buildinfo": "2.0.1",
+        "cordova-plugin-camera": "2.4.1",
+        "cordova-plugin-device": "2.0.3",
+        "cordova-plugin-facebook4": "5.0.0",
+        "cordova-plugin-file-transfer": "1.7.1",
+        "cordova-plugin-geolocation": "4.0.2",
+        "cordova-plugin-googleplus": "7.0.2",
+        "cordova-plugin-inappbrowser": "3.2.0",
+        "cordova-plugin-media": "5.0.2",
+        "cordova-plugin-network-information": "2.0.2",
+        "cordova-plugin-splashscreen": "5.0.3",
+        "cordova-plugin-whitelist": "1.3.4",
+        "cordova-plugin-x-socialsharing": "5.4.6",
+        "cordova-plugin-x-toast": "2.7.0",
+        "cordova.plugins.diagnostic": "5.0.1",
+        "phonegap-plugin-push": "2.1.2",
+        "uk.co.workingedge.phonegap.plugin.launchnavigator": "5.0.4",
+        "cordova-plugin-request-location-accuracy": "git+https://github.com/bastikikang/cordova-plugin-request-location-accuracy",
+        "cordova-plugin-ionic-webview": "4.2.0",
+        "monaca-plugin-monaca-core": "3.3.0",
+        "monaca-plugin-backend": "2.1.0",
+        "cordova-plugin-wkwebview-engine": "1.2.1",
+        "cordova-custom-config": "5.1.0"
+    },
+    "scripts": {
+        "monaca:preview": "npm run dev",
+        "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+    },
+    "cordova": {
+        "plugins": {
+            "com-sarriaroman-photoviewer": {},
+            "cordova-plugin-buildinfo": {},
+            "cordova-plugin-camera": {},
+            "cordova-plugin-device": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-googleplus": {
+                "REVERSED_CLIENT_ID": "com.googleusercontent.apps.46158489047-ehgbo9bqm9e99ef332k6qfbb8ljr0ak1",
+                "PLAY_SERVICES_VERSION": "11.0.1"
+            },
+            "cordova-plugin-inappbrowser": {},
+            "cordova-plugin-media": {},
+            "cordova-plugin-network-information": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-x-socialsharing": {},
+            "cordova-plugin-x-toast": {},
+            "cordova.plugins.diagnostic": {},
+            "phonegap-plugin-push": {},
+            "uk.co.workingedge.phonegap.plugin.launchnavigator": {},
+            "cordova-plugin-request-location-accuracy": {},
+            "cordova-plugin-ionic-webview": {},
+            "monaca-plugin-monaca-core": {},
+            "monaca-plugin-backend": {},
+            "cordova-plugin-wkwebview-engine": {},
+            "cordova-custom-config": {}
+        }
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "cordova": "^9.0.0"
+    }
+}

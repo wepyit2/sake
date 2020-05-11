@@ -1,0 +1,17 @@
+body {
+  background-color: black !important;
+}
+
+ons-pull-hook,
+.iphonex_margin
+{
+margin: 13px auto auto !important;
+}
+
+#page_item .fab_floating_category{
+bottom:90px !important;
+}
+
+ons-action-sheet{
+margin-bottom:-20px !important;
+}
